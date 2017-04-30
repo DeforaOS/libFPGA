@@ -29,9 +29,9 @@
 
 
 `ifndef COUNTER_SIZE
- `define COUNTER_SIZE	8
+ `define COUNTER_SIZE		8
 `endif
-`define COUNTER_SIZE_REG(width) (width - 1)
+`define COUNTER_SIZE_REG(width)	(width - 1)
 
 
 module counter (
